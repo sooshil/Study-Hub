@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sukajee.feature.auth"
+    namespace = "com.sukajee.feature.progress"
     compileSdk = 36
 
     defaultConfig {
@@ -35,14 +35,13 @@ android {
 dependencies {
     implementation(project(":core:design"))
     implementation(project(":core:common"))
-    implementation(project(":core:network"))
+    implementation(project(":core:database"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
-    implementation(libs.androidx.datastore.preferences)
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
     implementation(libs.kotlinx.coroutines.android)
