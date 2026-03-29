@@ -9,7 +9,7 @@ import com.sukajee.feature.auth.domain.usecases.RegisterUseCase
 import com.sukajee.feature.auth.presentation.login.LoginViewModel
 import com.sukajee.feature.auth.presentation.register.RegisterViewModel
 import org.koin.android.ext.koin.androidContext
-import org.koin.androidx.viewmodel.dsl.viewModelOf
+import org.koin.core.module.dsl.viewModelOf
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.bind
 import org.koin.dsl.module
