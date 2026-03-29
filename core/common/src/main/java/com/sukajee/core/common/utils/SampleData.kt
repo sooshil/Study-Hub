@@ -1,8 +1,7 @@
-package com.sukajee.feature.home.data
+package com.sukajee.core.common.utils
 
 import com.sukajee.core.common.model.Book
 import com.sukajee.core.common.model.BookStatus
-
 
 object SampleData {
 

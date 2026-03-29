@@ -6,7 +6,7 @@ import com.sukajee.core.common.utils.Resource
 import com.sukajee.core.database.dao.BookDao
 import com.sukajee.core.database.dao.UserDao
 import com.sukajee.core.database.mapper.toDomain
-import com.sukajee.feature.home.data.SampleData
+import com.sukajee.core.common.utils.SampleData
 import com.sukajee.feature.home.domain.repository.HomeRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
