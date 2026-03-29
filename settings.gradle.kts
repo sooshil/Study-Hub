@@ -25,3 +25,6 @@ dependencyResolutionManagement {
 rootProject.name = "Study Hub"
 include(":app")
 include(":core:design")
+include(":core:common")
+include(":core:network")
+include(":core:database")
