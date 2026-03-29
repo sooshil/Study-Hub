@@ -1,4 +1,4 @@
-package com.sukajee.design.theme
+package com.sukajee.core.design.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes

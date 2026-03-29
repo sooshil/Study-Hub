@@ -1,4 +1,4 @@
-package com.sukajee.design.components
+package com.sukajee.core.design.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -24,7 +24,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
-import com.sukajee.design.theme.ShapeTextField
+import com.sukajee.core.design.theme.ShapeTextField
 
 @Composable
 fun StudyHubTextField(

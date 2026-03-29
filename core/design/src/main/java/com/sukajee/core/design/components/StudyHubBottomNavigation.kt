@@ -1,4 +1,4 @@
-package com.sukajee.design.components
+package com.sukajee.core.design.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.BarChart

@@ -15,8 +15,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.sukajee.design.components.StudyHubBottomNavigation
-import com.sukajee.design.components.BottomNavItem
+import com.sukajee.core.design.components.StudyHubBottomNavigation
+import com.sukajee.core.design.components.BottomNavItem
 import com.sukajee.feature.auth.presentation.login.LoginScreen
 import com.sukajee.feature.auth.presentation.register.RegisterScreen
 import com.sukajee.feature.home.presentation.HomeScreen

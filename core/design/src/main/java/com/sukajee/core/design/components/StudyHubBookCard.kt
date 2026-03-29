@@ -1,4 +1,4 @@
-package com.sukajee.design.components
+package com.sukajee.core.design.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -25,8 +25,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.sukajee.design.theme.ShapeBookCover
-import com.sukajee.design.theme.ShapeCard
+import com.sukajee.core.design.theme.ShapeBookCover
+import com.sukajee.core.design.theme.ShapeCard
 
 @Composable
 fun BookListCard(
