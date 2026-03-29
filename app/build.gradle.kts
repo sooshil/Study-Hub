@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.androidApplication)
-    alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.kotlinCompose)
     alias(libs.plugins.kotlinSerialization)
 }
@@ -55,7 +54,7 @@ android {
 
 dependencies {
     // Core modules
-//    implementation(project(":core:design"))
+    implementation(project(":core:design"))
 //    implementation(project(":core:common"))
 //    implementation(project(":core:network"))
 //    implementation(project(":core:database"))

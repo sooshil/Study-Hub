@@ -24,4 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Study Hub"
 include(":app")
- 
+include(":core:design")
