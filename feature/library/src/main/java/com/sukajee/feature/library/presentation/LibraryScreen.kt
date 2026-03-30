@@ -48,6 +48,8 @@ import com.sukajee.core.design.theme.Indigo500
 import com.sukajee.core.design.theme.Purple500
 import com.sukajee.core.design.theme.ShapeTextField
 import org.koin.androidx.compose.koinViewModel
+import androidx.core.graphics.toColorInt
+import com.sukajee.core.design.utils.hexToColor
 
 @Composable
 fun LibraryScreen(

@@ -41,6 +41,8 @@ import com.sukajee.core.design.components.ProgressRing
 import com.sukajee.core.design.components.StatsCard
 import com.sukajee.core.design.theme.Indigo500
 import com.sukajee.core.design.theme.Purple500
+import com.sukajee.core.design.utils.hexToColor
+import com.sukajee.feature.progress.domain.model.SubjectProgress
 import com.sukajee.feature.progress.domain.model.WeeklyStudyData
 import org.koin.androidx.compose.koinViewModel
 
@@ -218,7 +220,7 @@ private fun WeeklyBarChart(data: List<WeeklyStudyData>) {
 
 @Composable
 private fun SubjectProgressItem(
-    subject: com.studyhub.feature.progress.domain.model.SubjectProgress,
+    subject: SubjectProgress,
     modifier: Modifier = Modifier
 ) {
     val color = hexToColor(subject.accentColorHex)
